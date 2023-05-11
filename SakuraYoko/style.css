@@ -45,12 +45,13 @@ main {
 }
 
 .main-title {
+  margin: 0 0 10px 0;
   text-align: center;
 }
 
 #self-introduction {
   display: flex;
-
+  align-items: flex-start;
 }
 
 .self-introduction-picture {
@@ -93,6 +94,7 @@ footer {
   width: 100%;
   height: 100px;
   background-color: darkgreen;
+  position: absolute;
   line-height: 100px;
   text-align: center;
 }
